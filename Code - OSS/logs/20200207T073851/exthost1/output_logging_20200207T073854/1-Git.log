@@ -1,0 +1,4 @@
+正在查找 Git: git
+将使用位于 git 的 Git 2.25.0
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git

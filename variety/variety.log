@@ -1,0 +1,1043 @@
+INFO: 2020-02-15 03:35:35,811: main() 'Using profile folder /home/wang/.config/variety/'
+INFO: 2020-02-15 03:35:35,816: perform_upgrade() 'Last run version was 0.8.2 or earlier, current version is 0.8.2'
+INFO: 2020-02-15 03:35:35,983: process_command() 'Received command: []'
+INFO: 2020-02-15 03:35:35,987: load_banned() 'Missing or invalid banned URLs list, no URLs will be banned'
+INFO: 2020-02-15 03:35:36,015: start() 'Using data_path /usr/share/variety'
+INFO: 2020-02-15 03:35:36,015: load() 'Jumble loading'
+INFO: 2020-02-15 03:35:36,017: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.8/site-packages/variety/plugins/builtin/__init__.py'
+INFO: 2020-02-15 03:35:36,020: _walk_modules() 'Jumble loading module in EarthviewDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/EarthviewDownloader.py'
+INFO: 2020-02-15 03:35:36,022: load() 'Jumble found plugin class: <class 'EarthviewDownloader.EarthviewDownloader'>: {'name': 'EarthviewDownloader', 'description': 'Google Earth View Wallpapers', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-02-15 03:35:36,022: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/__init__.py'
+INFO: 2020-02-15 03:35:36,024: _walk_modules() 'Jumble loading module in WallhavenDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/WallhavenDownloader.py'
+INFO: 2020-02-15 03:35:36,025: _walk_modules() 'Jumble loading module in UnsplashDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/UnsplashDownloader.py'
+INFO: 2020-02-15 03:35:36,027: load() 'Jumble found plugin class: <class 'UnsplashDownloader.UnsplashDownloader'>: {'name': 'UnsplashDownloader', 'description': 'High-resolution photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-02-15 03:35:36,027: _walk_modules() 'Jumble loading module in DesktopprDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/DesktopprDownloader.py'
+INFO: 2020-02-15 03:35:36,028: load() 'Jumble found plugin class: <class 'DesktopprDownloader.DesktopprDownloader'>: {'name': 'DesktopprDownloader', 'description': 'Random wallpapers from Desktoppr.co', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-02-15 03:35:36,029: _walk_modules() 'Jumble loading module in MediaRSSDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/MediaRSSDownloader.py'
+INFO: 2020-02-15 03:35:36,031: _walk_modules() 'Jumble loading module in ChromeOSWallpapersDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/ChromeOSWallpapersDownloader.py'
+INFO: 2020-02-15 03:35:36,032: load() 'Jumble found plugin class: <class 'ChromeOSWallpapersDownloader.ChromeOSWallpapersDownloader'>: {'name': 'ChromeOsWallpapersDownloader', 'description': 'Chrome OS Wallpapers', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-02-15 03:35:36,033: _walk_modules() 'Jumble loading module in RedditDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/RedditDownloader.py'
+INFO: 2020-02-15 03:35:36,034: _walk_modules() 'Jumble loading module in UnsplashConfigurableSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/UnsplashConfigurableSource.py'
+INFO: 2020-02-15 03:35:36,037: load() 'Jumble found plugin class: <class 'UnsplashConfigurableSource.UnsplashConfigurableSource'>: {'name': 'UnsplashConfigurableSource', 'description': 'Configurable source for fetching photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-02-15 03:35:36,038: _walk_modules() 'Jumble loading module in WallhavenSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/WallhavenSource.py'
+INFO: 2020-02-15 03:35:36,039: load() 'Jumble found plugin class: <class 'WallhavenSource.WallhavenSource'>: {'name': 'MediaRSSSource', 'description': 'Configurable source for fetching images from Wallhaven.cc', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-02-15 03:35:36,040: _walk_modules() 'Jumble loading module in APODDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/APODDownloader.py'
+INFO: 2020-02-15 03:35:36,041: load() 'Jumble found plugin class: <class 'APODDownloader.APODDownloader'>: {'name': 'APODDownloader', 'description': 'NASA Astro Pic of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-02-15 03:35:36,042: _walk_modules() 'Jumble loading module in MediaRSSSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/MediaRSSSource.py'
+INFO: 2020-02-15 03:35:36,044: load() 'Jumble found plugin class: <class 'MediaRSSSource.MediaRSSSource'>: {'name': 'MediaRSSSource', 'description': 'Configurable source for fetching images from MediaRSS feeds', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-02-15 03:35:36,045: _walk_modules() 'Jumble loading module in EarthDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/EarthDownloader.py'
+INFO: 2020-02-15 03:35:36,046: load() 'Jumble found plugin class: <class 'EarthDownloader.EarthDownloader'>: {'name': 'EarthDownloader', 'description': 'World Sunlight Map - live wallpaper from Die.net', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-02-15 03:35:36,047: _walk_modules() 'Jumble loading module in BingDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/BingDownloader.py'
+INFO: 2020-02-15 03:35:36,048: load() 'Jumble found plugin class: <class 'BingDownloader.BingDownloader'>: {'name': 'BingDownloader', 'description': 'Bing Photo of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-02-15 03:35:36,048: _walk_modules() 'Jumble loading module in RedditSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/RedditSource.py'
+INFO: 2020-02-15 03:35:36,050: load() 'Jumble found plugin class: <class 'RedditSource.RedditSource'>: {'name': 'RedditSource', 'description': 'Configurable source for fetching images from Reddit', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-02-15 03:35:36,051: _walk_modules() 'Jumble loading module in UrbanDictionarySource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/quotes/UrbanDictionarySource.py'
+INFO: 2020-02-15 03:35:36,053: load() 'Jumble found plugin class: <class 'UrbanDictionarySource.UrbanDictionarySource'>: {'name': 'Urban Dictionary', 'description': 'Displays definitions from Urban Dictionary', 'author': 'James Miller', 'version': '0.1'}'
+INFO: 2020-02-15 03:35:36,053: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.8/site-packages/variety/plugins/builtin/quotes/__init__.py'
+INFO: 2020-02-15 03:35:36,055: _walk_modules() 'Jumble loading module in QuotationsPageSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/quotes/QuotationsPageSource.py'
+INFO: 2020-02-15 03:35:36,067: load() 'Jumble found plugin class: <class 'QuotationsPageSource.QuotationsPageSource'>: {'name': 'TheQuotationsPage.com', 'description': '从 QuotationsPage.com 获取箴言', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-02-15 03:35:36,068: _walk_modules() 'Jumble loading module in LocalFilesSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/quotes/LocalFilesSource.py'
+INFO: 2020-02-15 03:35:36,069: load() 'Jumble found plugin class: <class 'LocalFilesSource.LocalFilesSource'>: {'name': 'Local text files', 'description': 'Displays quotes, defined in local text files.\nPut your own txt files in: ~/.config/variety/pluginconfig/quotes/.\nThe file format is:\n\nquote -- author\n.\nsecond quote -- another author\n.\netc...\n\nExample: http://rvelthuis.de/zips/quotes.txt', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-02-15 03:35:36,070: _walk_modules() 'Jumble loading module in FortuneSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/quotes/FortuneSource.py'
+INFO: 2020-02-15 03:35:36,071: load() 'Jumble found plugin class: <class 'FortuneSource.FortuneSource'>: {'name': 'UNIX fortune program', 'description': 'Displays quotes using the UNIX fortune program. You may want to install additional fortune packs, e.g. fortunes-bofh-excuses.', 'author': 'Dan Jones', 'version': '0.1'}'
+INFO: 2020-02-15 03:35:36,072: _walk_modules() 'Jumble loading module in GoodreadsSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/quotes/GoodreadsSource.py'
+INFO: 2020-02-15 03:35:36,073: load() 'Jumble found plugin class: <class 'GoodreadsSource.GoodreadsSource'>: {'name': 'Goodreads', 'description': '从 Goodreads.com 获取箴言', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-02-15 03:35:36,079: reload_config() 'Creating new downloader for type flickr, location user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2020-02-15 03:35:36,079: reload_config() 'Creating new downloader for type apod, location NASA Astro Pic of the Day'
+INFO: 2020-02-15 03:35:36,079: reload_config() 'Creating new downloader for type bing, location Bing Photo of the Day'
+INFO: 2020-02-15 03:35:36,079: reload_config() 'Creating new downloader for type chromeos, location Chrome OS Wallpapers'
+INFO: 2020-02-15 03:35:36,079: reload_config() 'Creating new downloader for type desktoppr, location Random wallpapers from Desktoppr.co'
+INFO: 2020-02-15 03:35:36,079: reload_config() 'Creating new downloader for type earth, location World Sunlight Map - live wallpaper from Die.net'
+INFO: 2020-02-15 03:35:36,079: reload_config() 'Creating new downloader for type earthview, location Google Earth View Wallpapers'
+INFO: 2020-02-15 03:35:36,079: reload_config() 'Creating new downloader for type unsplash, location High-resolution photos from Unsplash.com'
+INFO: 2020-02-15 03:35:36,086: log_options() 'Loaded options:'
+INFO: 2020-02-15 03:35:36,086: log_options() 'change_enabled = True'
+INFO: 2020-02-15 03:35:36,086: log_options() 'change_interval = 300'
+INFO: 2020-02-15 03:35:36,086: log_options() 'change_on_start = False'
+INFO: 2020-02-15 03:35:36,086: log_options() 'clipboard_enabled = False'
+INFO: 2020-02-15 03:35:36,086: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
+INFO: 2020-02-15 03:35:36,086: log_options() 'clipboard_use_whitelist = True'
+INFO: 2020-02-15 03:35:36,086: log_options() 'clock_date_font = Ubuntu Condensed, 30'
+INFO: 2020-02-15 03:35:36,086: log_options() 'clock_enabled = False'
+INFO: 2020-02-15 03:35:36,086: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
+INFO: 2020-02-15 03:35:36,086: log_options() 'clock_font = Ubuntu Condensed, 70'
+INFO: 2020-02-15 03:35:36,086: log_options() 'configfile = /home/wang/.config/variety/variety.conf'
+INFO: 2020-02-15 03:35:36,086: log_options() 'copyto_enabled = False'
+INFO: 2020-02-15 03:35:36,086: log_options() 'copyto_folder = Default'
+INFO: 2020-02-15 03:35:36,086: log_options() 'desired_color = None'
+INFO: 2020-02-15 03:35:36,086: log_options() 'desired_color_enabled = False'
+INFO: 2020-02-15 03:35:36,086: log_options() 'download_folder = /home/wang/.config/variety/Downloaded'
+INFO: 2020-02-15 03:35:36,086: log_options() 'download_preference_ratio = 0.9'
+INFO: 2020-02-15 03:35:36,087: log_options() 'favorites_folder = /home/wang/.config/variety/Favorites'
+INFO: 2020-02-15 03:35:36,087: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
+INFO: 2020-02-15 03:35:36,087: log_options() 'fetched_folder = /home/wang/.config/variety/Fetched'
+INFO: 2020-02-15 03:35:36,087: log_options() 'filters = [[False, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-blur 120x40'], [False, 'Soft blur', '-blur 20x7'], [False, 'Oil painting', '-paint 8'], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
+INFO: 2020-02-15 03:35:36,087: log_options() 'icon = Light'
+INFO: 2020-02-15 03:35:36,087: log_options() 'lightness_enabled = False'
+INFO: 2020-02-15 03:35:36,087: log_options() 'lightness_mode = 0'
+INFO: 2020-02-15 03:35:36,087: log_options() 'min_rating = 4'
+INFO: 2020-02-15 03:35:36,087: log_options() 'min_rating_enabled = False'
+INFO: 2020-02-15 03:35:36,087: log_options() 'min_size = 80'
+INFO: 2020-02-15 03:35:36,087: log_options() 'min_size_enabled = False'
+INFO: 2020-02-15 03:35:36,087: log_options() 'quota_enabled = True'
+INFO: 2020-02-15 03:35:36,087: log_options() 'quota_size = 1000'
+INFO: 2020-02-15 03:35:36,087: log_options() 'quotes_authors = '
+INFO: 2020-02-15 03:35:36,087: log_options() 'quotes_bg_color = [80, 80, 80]'
+INFO: 2020-02-15 03:35:36,087: log_options() 'quotes_bg_opacity = 55'
+INFO: 2020-02-15 03:35:36,087: log_options() 'quotes_change_enabled = False'
+INFO: 2020-02-15 03:35:36,087: log_options() 'quotes_change_interval = 300'
+INFO: 2020-02-15 03:35:36,087: log_options() 'quotes_disabled_sources = ['Urban Dictionary']'
+INFO: 2020-02-15 03:35:36,087: log_options() 'quotes_enabled = False'
+INFO: 2020-02-15 03:35:36,087: log_options() 'quotes_favorites_file = /home/wang/.config/variety/favorite_quotes.txt'
+INFO: 2020-02-15 03:35:36,087: log_options() 'quotes_font = Bitstream Charter 30'
+INFO: 2020-02-15 03:35:36,087: log_options() 'quotes_hpos = 100'
+INFO: 2020-02-15 03:35:36,087: log_options() 'quotes_max_length = 250'
+INFO: 2020-02-15 03:35:36,087: log_options() 'quotes_tags = '
+INFO: 2020-02-15 03:35:36,087: log_options() 'quotes_text_color = [255, 255, 255]'
+INFO: 2020-02-15 03:35:36,088: log_options() 'quotes_text_shadow = False'
+INFO: 2020-02-15 03:35:36,088: log_options() 'quotes_vpos = 40'
+INFO: 2020-02-15 03:35:36,088: log_options() 'quotes_width = 70'
+INFO: 2020-02-15 03:35:36,088: log_options() 'safe_mode = False'
+INFO: 2020-02-15 03:35:36,088: log_options() 'slideshow_custom_enabled = False'
+INFO: 2020-02-15 03:35:36,088: log_options() 'slideshow_custom_folder = /home/wang/图片'
+INFO: 2020-02-15 03:35:36,088: log_options() 'slideshow_downloads_enabled = False'
+INFO: 2020-02-15 03:35:36,088: log_options() 'slideshow_fade = 0.4'
+INFO: 2020-02-15 03:35:36,088: log_options() 'slideshow_favorites_enabled = True'
+INFO: 2020-02-15 03:35:36,088: log_options() 'slideshow_mode = Fullscreen'
+INFO: 2020-02-15 03:35:36,088: log_options() 'slideshow_monitor = All'
+INFO: 2020-02-15 03:35:36,088: log_options() 'slideshow_pan = 0.05'
+INFO: 2020-02-15 03:35:36,088: log_options() 'slideshow_seconds = 6.0'
+INFO: 2020-02-15 03:35:36,088: log_options() 'slideshow_sort_order = Random'
+INFO: 2020-02-15 03:35:36,088: log_options() 'slideshow_sources_enabled = True'
+INFO: 2020-02-15 03:35:36,088: log_options() 'slideshow_zoom = 0.2'
+INFO: 2020-02-15 03:35:36,088: log_options() 'smart_enabled = False'
+INFO: 2020-02-15 03:35:36,088: log_options() 'smart_notice_shown = False'
+INFO: 2020-02-15 03:35:36,088: log_options() 'smart_register_shown = False'
+INFO: 2020-02-15 03:35:36,088: log_options() 'sources = [[True, 'favorites', 'The Favorites folder'], [True, 'fetched', 'The Fetched folder'], [True, 'folder', '/usr/share/backgrounds'], [True, 'flickr', 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'], [True, 'apod', 'NASA Astro Pic of the Day'], [True, 'bing', 'Bing Photo of the Day'], [True, 'chromeos', 'Chrome OS Wallpapers'], [True, 'desktoppr', 'Random wallpapers from Desktoppr.co'], [True, 'earth', 'World Sunlight Map - live wallpaper from Die.net'], [True, 'earthview', 'Google Earth View Wallpapers'], [True, 'unsplash', 'High-resolution photos from Unsplash.com']]'
+INFO: 2020-02-15 03:35:36,088: log_options() 'stats_enabled = True'
+INFO: 2020-02-15 03:35:36,088: log_options() 'stats_notice_shown = False'
+INFO: 2020-02-15 03:35:36,088: log_options() 'sync_enabled = True'
+INFO: 2020-02-15 03:35:36,088: log_options() 'use_landscape_enabled = True'
+INFO: 2020-02-15 03:35:36,088: reload_config() 'No need to clear prepared queue'
+INFO: 2020-02-15 03:35:36,089: update_indicator() 'Setting file info to: /home/wang/.config/variety/Downloaded/Unsplash/photo-1565814280241-f87325d866c7.jpg'
+INFO: 2020-02-15 03:35:36,094: load_last_change_time() 'Change interval < 6 hours, ignore persisted last_change_time, wait initially the whole interval: 300'
+INFO: 2020-02-15 03:35:36,094: update_indicator() 'Setting file info to: /home/wang/.config/variety/Downloaded/Unsplash/photo-1565814280241-f87325d866c7.jpg'
+INFO: 2020-02-15 03:35:36,095: regular_change_thread() 'regular_change thread running'
+INFO: 2020-02-15 03:35:36,096: prepare_thread() 'Prepare thread running'
+INFO: 2020-02-15 03:35:36,096: prepare_thread() 'Prepared buffer contains 0 images'
+INFO: 2020-02-15 03:35:36,096: prepare_thread() 'Preparing some images'
+INFO: 2020-02-15 03:35:36,096: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-02-15 03:35:36,096: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-02-15 03:35:36,097: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-02-15 03:35:36,097: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-02-15 03:35:36,097: download_one() 'Flickr: Downloading an image, config: user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2020-02-15 03:35:36,097: download_one() 'Flickr: Queue size: 0'
+INFO: 2020-02-15 03:35:36,097: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-02-15 03:35:36,097: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-02-15 03:35:36,097: download_one() 'Flickr: Filling queue'
+INFO: 2020-02-15 03:35:36,097: fetch() 'Making flickr API call: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00'
+INFO: 2020-02-15 03:35:36,100: update_indicator_icon() 'Creating indicator'
+WARNING: 2020-02-15 03:35:36,137: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
+INFO: 2020-02-15 03:35:36,139: create_indicator() 'indicator backend: AppIndicator3'
+INFO: 2020-02-15 03:35:36,165: set_from_theme_icon() 'Showing indicator icon variety-indicator from GTK theme'
+INFO: 2020-02-15 03:35:36,196: do_set_wp() 'Calling do_set_wp with /home/wang/.config/variety/Downloaded/Unsplash/photo-1565814280241-f87325d866c7.jpg, time: 1581708936.1961389'
+INFO: 2020-02-15 03:35:36,211: update_indicator() 'Setting file info to: /home/wang/.config/variety/Downloaded/Unsplash/photo-1565814280241-f87325d866c7.jpg'
+INFO: 2020-02-15 03:35:36,215: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-02-15 03:35:36,285: prepare_thread() 'After search prepared buffer contains 94 images'
+INFO: 2020-02-15 03:35:38,216: reload() 'Reloading preferences dialog'
+INFO: 2020-02-15 03:35:38,240: download_one() 'Downloading world sunlight map from https://www.die.net/earth/'
+INFO: 2020-02-15 03:35:38,240: save_locally() 'Origin URL: https://www.die.net/earth/'
+INFO: 2020-02-15 03:35:38,240: save_locally() 'Image URL: https://static.die.net/earth/mercator/1600.jpg'
+INFO: 2020-02-15 03:35:38,240: save_locally() 'Local path: /home/wang/.config/variety/Downloaded/Earth/1600.jpg'
+INFO: 2020-02-15 03:35:38,287: trigger_download() 'Triggering download thread to check if download needed'
+INFO: 2020-02-15 03:35:40,918: save_locally() 'Download failed from image URL: https://static.die.net/earth/mercator/1600.jpg (source location: https://www.die.net/earth/) '
+ERROR: 2020-02-15 03:35:40,919: safe_unlink() 'Could not delete /home/wang/.config/variety/Downloaded/Earth/1600.jpg.partial, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 233, in save_locally
+    r = Util.request(
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://static.die.net/earth/mercator/1600.jpg
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 880, in safe_unlink
+    os.unlink(filepath)
+FileNotFoundError: [Errno 2] 没有那个文件或目录: '/home/wang/.config/variety/Downloaded/Earth/1600.jpg.partial'
+ERROR: 2020-02-15 03:35:41,244: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 300, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f4938285130>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f4938285130>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 158, in fill_queue
+    resp = FlickrDownloader.fetch(call)
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 73, in fetch
+    return Util.fetch_json(call)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f4938285130>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-02-15 03:35:41,247: download_one() 'Downloading world sunlight map from https://www.die.net/earth/'
+INFO: 2020-02-15 03:35:41,247: save_locally() 'Origin URL: https://www.die.net/earth/'
+INFO: 2020-02-15 03:35:41,247: save_locally() 'Image URL: https://static.die.net/earth/mercator/1600.jpg'
+INFO: 2020-02-15 03:35:41,247: save_locally() 'Local path: /home/wang/.config/variety/Downloaded/Earth/1600.jpg'
+INFO: 2020-02-15 03:35:42,396: save_locally() 'Download failed from image URL: https://static.die.net/earth/mercator/1600.jpg (source location: https://www.die.net/earth/) '
+ERROR: 2020-02-15 03:35:42,396: safe_unlink() 'Could not delete /home/wang/.config/variety/Downloaded/Earth/1600.jpg.partial, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 233, in save_locally
+    r = Util.request(
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://static.die.net/earth/mercator/1600.jpg
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 880, in safe_unlink
+    os.unlink(filepath)
+FileNotFoundError: [Errno 2] 没有那个文件或目录: '/home/wang/.config/variety/Downloaded/Earth/1600.jpg.partial'
+ERROR: 2020-02-15 03:35:42,397: download_thread() 'Exception in download_thread:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1130, in download_thread
+    dl.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/EarthDownloader.py", line 64, in download_one
+    downloaded = self.save_locally(
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 244, in save_locally
+    raise e
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 233, in save_locally
+    r = Util.request(
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://static.die.net/earth/mercator/1600.jpg
+INFO: 2020-02-15 03:35:42,398: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-02-15 03:35:42,398: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-02-15 03:35:42,398: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-02-15 03:35:42,398: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-02-15 03:35:42,398: download_one() 'Desktoppr.co: Downloading an image, config: None'
+INFO: 2020-02-15 03:35:42,398: download_one() 'Desktoppr.co: Queue size: 0'
+INFO: 2020-02-15 03:35:42,398: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-02-15 03:35:42,398: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-02-15 03:35:42,398: download_one() 'Desktoppr.co: Filling queue'
+ERROR: 2020-02-15 03:35:48,753: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 352, in connect
+    self.sock = ssl_wrap_socket(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.8/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.8/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.8/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1091: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 400, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3.8/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 379, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 330, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.desktoppr.co', port=443): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/DesktopprDownloader.py", line 57, in fill_queue
+    response = Util.fetch_json("https://api.desktoppr.co/1/wallpapers/random", verify=False)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.desktoppr.co', port=443): Read timed out. (read timeout=5)
+INFO: 2020-02-15 03:35:48,754: download_one() 'Downloading world sunlight map from https://www.die.net/earth/'
+INFO: 2020-02-15 03:35:48,754: save_locally() 'Origin URL: https://www.die.net/earth/'
+INFO: 2020-02-15 03:35:48,754: save_locally() 'Image URL: https://static.die.net/earth/mercator/1600.jpg'
+INFO: 2020-02-15 03:35:48,754: save_locally() 'Local path: /home/wang/.config/variety/Downloaded/Earth/1600.jpg'
+INFO: 2020-02-15 03:35:50,909: save_locally() 'Download failed from image URL: https://static.die.net/earth/mercator/1600.jpg (source location: https://www.die.net/earth/) '
+ERROR: 2020-02-15 03:35:50,909: safe_unlink() 'Could not delete /home/wang/.config/variety/Downloaded/Earth/1600.jpg.partial, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 233, in save_locally
+    r = Util.request(
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://static.die.net/earth/mercator/1600.jpg
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 880, in safe_unlink
+    os.unlink(filepath)
+FileNotFoundError: [Errno 2] 没有那个文件或目录: '/home/wang/.config/variety/Downloaded/Earth/1600.jpg.partial'
+ERROR: 2020-02-15 03:35:50,909: download_thread() 'Exception in download_thread:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1130, in download_thread
+    dl.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/EarthDownloader.py", line 64, in download_one
+    downloaded = self.save_locally(
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 244, in save_locally
+    raise e
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 233, in save_locally
+    r = Util.request(
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://static.die.net/earth/mercator/1600.jpg
+INFO: 2020-02-15 03:35:50,910: download_one() 'Downloading world sunlight map from https://www.die.net/earth/'
+INFO: 2020-02-15 03:35:50,910: save_locally() 'Origin URL: https://www.die.net/earth/'
+INFO: 2020-02-15 03:35:50,910: save_locally() 'Image URL: https://static.die.net/earth/mercator/1600.jpg'
+INFO: 2020-02-15 03:35:50,910: save_locally() 'Local path: /home/wang/.config/variety/Downloaded/Earth/1600.jpg'
+INFO: 2020-02-15 03:35:52,073: save_locally() 'Download failed from image URL: https://static.die.net/earth/mercator/1600.jpg (source location: https://www.die.net/earth/) '
+ERROR: 2020-02-15 03:35:52,073: safe_unlink() 'Could not delete /home/wang/.config/variety/Downloaded/Earth/1600.jpg.partial, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 233, in save_locally
+    r = Util.request(
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://static.die.net/earth/mercator/1600.jpg
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 880, in safe_unlink
+    os.unlink(filepath)
+FileNotFoundError: [Errno 2] 没有那个文件或目录: '/home/wang/.config/variety/Downloaded/Earth/1600.jpg.partial'
+ERROR: 2020-02-15 03:35:52,073: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/EarthDownloader.py", line 64, in download_one
+    downloaded = self.save_locally(
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 244, in save_locally
+    raise e
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 233, in save_locally
+    r = Util.request(
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://static.die.net/earth/mercator/1600.jpg
+INFO: 2020-02-15 03:35:53,076: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-02-15 03:35:53,077: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-02-15 03:35:53,077: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-02-15 03:35:53,077: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-02-15 03:35:53,077: download_one() 'Bing: Downloading an image, config: None'
+INFO: 2020-02-15 03:35:53,077: download_one() 'Bing: Queue size: 0'
+INFO: 2020-02-15 03:35:53,077: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-02-15 03:35:53,077: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-02-15 03:35:53,077: download_one() 'Bing: Filling queue'
+INFO: 2020-02-15 03:35:53,866: download_one() 'Bing: Queue populated with 8 URLs'
+INFO: 2020-02-15 03:35:53,866: save_locally() 'Origin URL: https://www.bing.com/search?q=%E5%85%83%E5%AE%B5%E8%8A%82&form=hpcapt&mkt=zh-cn'
+INFO: 2020-02-15 03:35:53,866: save_locally() 'Image URL: https://www.bing.com/th?id=OHR.Lanternfestival2020_ZH-CN9333703076_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp'
+INFO: 2020-02-15 03:35:53,866: save_locally() 'Local path: /home/wang/.config/variety/Downloaded/Bing/OHR.Lanternfestival2020_ZH-CN9333703076_1920x1080.jpg'
+INFO: 2020-02-15 03:35:53,866: save_locally() 'File already exists, skip downloading'
+INFO: 2020-02-15 03:35:54,868: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-02-15 03:35:54,868: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-02-15 03:35:54,868: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-02-15 03:35:54,868: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-02-15 03:35:54,868: download_one() 'Chrome OS Wallpapers: Downloading an image, config: None'
+INFO: 2020-02-15 03:35:54,868: download_one() 'Chrome OS Wallpapers: Queue size: 0'
+INFO: 2020-02-15 03:35:54,868: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-02-15 03:35:54,868: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-02-15 03:35:54,868: download_one() 'Chrome OS Wallpapers: Filling queue'
+INFO: 2020-02-15 03:35:56,105: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+INFO: 2020-02-15 03:35:56,493: download_one() 'Chrome OS Wallpapers: Queue populated with 158 URLs'
+INFO: 2020-02-15 03:35:56,493: save_locally() 'Origin URL: https://lh5.ggpht.com/29ikbgk5tyutpVBo77hREAh_8z-EVofTJt48EhV83wcCF1uttzwr0KSvwE1rnbBFaKSHFPg85PwDzkwqUdWhOLmFLBNlu90-tfPlYv3m'
+INFO: 2020-02-15 03:35:56,493: save_locally() 'Image URL: https://storage.googleapis.com/chromeos-wallpaper-public/20140527-162717_earth-003_high_resolution.jpg'
+INFO: 2020-02-15 03:35:56,493: save_locally() 'Local path: /home/wang/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-162717_earth-003_high_resolution.jpg'
+ERROR: 2020-02-15 03:36:01,173: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.8/http/client.py", line 1230, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1276, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 161, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f4938285340>, 'Connection to tiny.cc timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f4938285340>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1087, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f4938285340>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+INFO: 2020-02-15 03:36:01,560: save_locally() 'Download complete'
+INFO: 2020-02-15 03:36:01,560: update_indicator() 'Setting file info to: /home/wang/.config/variety/Downloaded/Unsplash/photo-1565814280241-f87325d866c7.jpg'
+INFO: 2020-02-15 03:36:01,561: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-02-15 03:36:01,562: download_one_from() 'Adding downloaded file /home/wang/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-162717_earth-003_high_resolution.jpg to unseen_downloads'
+INFO: 2020-02-15 03:36:02,565: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-02-15 03:36:02,565: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-02-15 03:36:02,565: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-02-15 03:36:02,565: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-02-15 03:36:02,565: download_one() 'Chrome OS Wallpapers: Downloading an image, config: None'
+INFO: 2020-02-15 03:36:02,565: download_one() 'Chrome OS Wallpapers: Queue size: 157'
+INFO: 2020-02-15 03:36:02,565: download_one() 'Chrome OS Wallpapers: Queue populated with 157 URLs'
+INFO: 2020-02-15 03:36:02,566: save_locally() 'Origin URL: https://lh4.ggpht.com/txNid4O4QkJNcRrYSCxrONPtAgUPPSBbyAagt8m2zbhRVzzP_NEAcF-WqYllLbntfB-N_PCWoGimk0mTre5FI4IP8oW7enwFWTXkWvq8'
+INFO: 2020-02-15 03:36:02,566: save_locally() 'Image URL: https://storage.googleapis.com/chromeos-wallpaper-public/20140527-174634_earth-059_high_resolution.jpg'
+INFO: 2020-02-15 03:36:02,566: save_locally() 'Local path: /home/wang/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-174634_earth-059_high_resolution.jpg'
+INFO: 2020-02-15 03:36:07,448: save_locally() 'Download complete'
+INFO: 2020-02-15 03:36:07,448: update_indicator() 'Setting file info to: /home/wang/.config/variety/Downloaded/Unsplash/photo-1565814280241-f87325d866c7.jpg'
+INFO: 2020-02-15 03:36:07,449: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-02-15 03:36:07,450: download_one_from() 'Adding downloaded file /home/wang/.config/variety/Downloaded/Chrome OS Wallpapers/20140527-174634_earth-059_high_resolution.jpg to unseen_downloads'
+INFO: 2020-02-15 03:36:31,187: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2020-02-15 03:36:36,511: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.8/http/client.py", line 1230, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1276, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 161, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f49017bab20>, 'Connection to tiny.cc timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49017bab20>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1087, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f49017bab20>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+INFO: 2020-02-15 03:37:06,543: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2020-02-15 03:37:11,610: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.8/http/client.py", line 1230, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1276, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f493810f880>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f493810f880>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1087, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f493810f880>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-02-15 03:37:41,641: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2020-02-15 03:37:46,766: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.8/http/client.py", line 1230, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1276, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f493810fd30>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f493810fd30>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1087, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f493810fd30>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-02-15 03:38:16,798: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2020-02-15 03:38:21,811: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.8/http/client.py", line 1230, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1276, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1225, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1004, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 944, in send
+    self.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f493810fe20>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f493810fe20>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1087, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f493810fe20>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-02-15 03:39:08,452: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-02-15 03:39:08,452: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-02-15 03:39:08,452: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-02-15 03:39:08,452: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-02-15 03:39:08,453: download_one() 'Flickr: Downloading an image, config: user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2020-02-15 03:39:08,453: download_one() 'Flickr: Queue size: 0'
+INFO: 2020-02-15 03:39:08,453: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-02-15 03:39:08,453: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-02-15 03:39:08,453: download_one() 'Flickr: Filling queue'
+INFO: 2020-02-15 03:39:08,453: fetch() 'Making flickr API call: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00'
+ERROR: 2020-02-15 03:39:13,584: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 156, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 300, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 168, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x7f4938109370>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f4938109370>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 158, in fill_queue
+    resp = FlickrDownloader.fetch(call)
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 73, in fetch
+    return Util.fetch_json(call)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f4938109370>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-02-15 03:39:13,586: download_one() 'Downloading world sunlight map from https://www.die.net/earth/'
+INFO: 2020-02-15 03:39:13,587: save_locally() 'Origin URL: https://www.die.net/earth/'
+INFO: 2020-02-15 03:39:13,587: save_locally() 'Image URL: https://static.die.net/earth/mercator/1600.jpg'
+INFO: 2020-02-15 03:39:13,587: save_locally() 'Local path: /home/wang/.config/variety/Downloaded/Earth/1600.jpg'
+INFO: 2020-02-15 03:39:17,204: save_locally() 'Download failed from image URL: https://static.die.net/earth/mercator/1600.jpg (source location: https://www.die.net/earth/) '
+ERROR: 2020-02-15 03:39:17,204: safe_unlink() 'Could not delete /home/wang/.config/variety/Downloaded/Earth/1600.jpg.partial, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 233, in save_locally
+    r = Util.request(
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://static.die.net/earth/mercator/1600.jpg
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 880, in safe_unlink
+    os.unlink(filepath)
+FileNotFoundError: [Errno 2] 没有那个文件或目录: '/home/wang/.config/variety/Downloaded/Earth/1600.jpg.partial'
+ERROR: 2020-02-15 03:39:17,204: download_thread() 'Exception in download_thread:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1130, in download_thread
+    dl.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/EarthDownloader.py", line 64, in download_one
+    downloaded = self.save_locally(
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 244, in save_locally
+    raise e
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 233, in save_locally
+    r = Util.request(
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://static.die.net/earth/mercator/1600.jpg
+INFO: 2020-02-15 03:39:17,205: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-02-15 03:39:17,205: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-02-15 03:39:17,205: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-02-15 03:39:17,205: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-02-15 03:39:17,205: download_one() 'Desktoppr.co: Downloading an image, config: None'
+INFO: 2020-02-15 03:39:17,205: download_one() 'Desktoppr.co: Queue size: 0'
+INFO: 2020-02-15 03:39:17,206: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-02-15 03:39:17,206: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-02-15 03:39:17,206: download_one() 'Desktoppr.co: Filling queue'
+ERROR: 2020-02-15 03:39:28,449: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1322, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 303, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 264, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 400, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3.8/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 423, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 330, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.desktoppr.co', port=443): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/DesktopprDownloader.py", line 57, in fill_queue
+    response = Util.fetch_json("https://api.desktoppr.co/1/wallpapers/random", verify=False)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.desktoppr.co', port=443): Read timed out. (read timeout=5)
+INFO: 2020-02-15 03:39:28,450: download_one() 'Downloading world sunlight map from https://www.die.net/earth/'
+INFO: 2020-02-15 03:39:28,450: save_locally() 'Origin URL: https://www.die.net/earth/'
+INFO: 2020-02-15 03:39:28,450: save_locally() 'Image URL: https://static.die.net/earth/mercator/1600.jpg'
+INFO: 2020-02-15 03:39:28,450: save_locally() 'Local path: /home/wang/.config/variety/Downloaded/Earth/1600.jpg'
+INFO: 2020-02-15 03:39:29,551: save_locally() 'Download failed from image URL: https://static.die.net/earth/mercator/1600.jpg (source location: https://www.die.net/earth/) '
+ERROR: 2020-02-15 03:39:29,551: safe_unlink() 'Could not delete /home/wang/.config/variety/Downloaded/Earth/1600.jpg.partial, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 233, in save_locally
+    r = Util.request(
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://static.die.net/earth/mercator/1600.jpg
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 880, in safe_unlink
+    os.unlink(filepath)
+FileNotFoundError: [Errno 2] 没有那个文件或目录: '/home/wang/.config/variety/Downloaded/Earth/1600.jpg.partial'
+ERROR: 2020-02-15 03:39:29,552: download_thread() 'Exception in download_thread:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1130, in download_thread
+    dl.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/EarthDownloader.py", line 64, in download_one
+    downloaded = self.save_locally(
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 244, in save_locally
+    raise e
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 233, in save_locally
+    r = Util.request(
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://static.die.net/earth/mercator/1600.jpg
+INFO: 2020-02-15 03:39:29,552: download_one() 'Downloading world sunlight map from https://www.die.net/earth/'
+INFO: 2020-02-15 03:39:29,553: save_locally() 'Origin URL: https://www.die.net/earth/'
+INFO: 2020-02-15 03:39:29,553: save_locally() 'Image URL: https://static.die.net/earth/mercator/1600.jpg'
+INFO: 2020-02-15 03:39:29,553: save_locally() 'Local path: /home/wang/.config/variety/Downloaded/Earth/1600.jpg'
+INFO: 2020-02-15 03:39:32,097: save_locally() 'Download failed from image URL: https://static.die.net/earth/mercator/1600.jpg (source location: https://www.die.net/earth/) '
+ERROR: 2020-02-15 03:39:32,097: safe_unlink() 'Could not delete /home/wang/.config/variety/Downloaded/Earth/1600.jpg.partial, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 233, in save_locally
+    r = Util.request(
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://static.die.net/earth/mercator/1600.jpg
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 880, in safe_unlink
+    os.unlink(filepath)
+FileNotFoundError: [Errno 2] 没有那个文件或目录: '/home/wang/.config/variety/Downloaded/Earth/1600.jpg.partial'
+ERROR: 2020-02-15 03:39:32,097: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/EarthDownloader.py", line 64, in download_one
+    downloaded = self.save_locally(
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 244, in save_locally
+    raise e
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 233, in save_locally
+    r = Util.request(
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://static.die.net/earth/mercator/1600.jpg
+INFO: 2020-02-15 03:39:33,100: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-02-15 03:39:33,101: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-02-15 03:39:33,101: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-02-15 03:39:33,101: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-02-15 03:39:33,101: download_one() 'Bing: Downloading an image, config: None'
+INFO: 2020-02-15 03:39:33,101: download_one() 'Bing: Queue size: 7'
+INFO: 2020-02-15 03:39:33,101: download_one() 'Bing: Queue populated with 7 URLs'
+INFO: 2020-02-15 03:39:33,101: save_locally() 'Origin URL: https://www.bing.com/search?q=Calanques+de+Piana%E5%B2%A9%E5%B1%82&form=hpcapt&mkt=zh-cn'
+INFO: 2020-02-15 03:39:33,101: save_locally() 'Image URL: https://www.bing.com/th?id=OHR.CorsicaHeart_ZH-CN2795615037_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp'
+INFO: 2020-02-15 03:39:33,101: save_locally() 'Local path: /home/wang/.config/variety/Downloaded/Bing/OHR.CorsicaHeart_ZH-CN2795615037_1920x1080.jpg'
+INFO: 2020-02-15 03:39:33,101: save_locally() 'File already exists, skip downloading'
+INFO: 2020-02-15 03:40:36,095: regular_change_thread() 'regular_change changes wallpaper'
+INFO: 2020-02-15 03:40:36,096: set_wallpaper() 'Calling set_wallpaper with /home/wang/.config/variety/Downloaded/Bing/OHR.ButterflyPair_ZH-CN9153450825_1920x1080.jpg'
+INFO: 2020-02-15 03:40:36,096: prepare_thread() 'Prepared buffer contains 94 images'
+INFO: 2020-02-15 03:40:36,097: do_set_wp() 'Calling do_set_wp with /home/wang/.config/variety/Downloaded/Bing/OHR.ButterflyPair_ZH-CN9153450825_1920x1080.jpg, time: 1581709236.0974412'
+INFO: 2020-02-15 03:40:36,107: update_indicator() 'Setting file info to: /home/wang/.config/variety/Downloaded/Bing/OHR.ButterflyPair_ZH-CN9153450825_1920x1080.jpg'
+INFO: 2020-02-15 03:40:36,109: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-02-15 03:40:38,097: trigger_download() 'Triggering download thread to check if download needed'
+INFO: 2020-02-15 03:40:38,097: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-02-15 03:40:38,097: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-02-15 03:40:38,097: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-02-15 03:40:38,097: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-02-15 03:40:38,098: download_one() 'Flickr: Downloading an image, config: user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2020-02-15 03:40:38,098: download_one() 'Flickr: Queue size: 0'
+INFO: 2020-02-15 03:40:38,098: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-02-15 03:40:38,098: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-02-15 03:40:38,098: download_one() 'Flickr: Filling queue'
+INFO: 2020-02-15 03:40:38,098: fetch() 'Making flickr API call: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00'
+INFO: 2020-02-15 03:40:38,099: trigger_download() 'Triggering download thread to check if download needed'
